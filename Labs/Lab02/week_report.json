@@ -1,0 +1,58 @@
+{
+  "stream_key": "9ae6b6299dd613ee619b8bb36c584f70051bb153fd582d37bc644c3ca29a0420",
+  "database": "/Users/molczane/Developer/Automated_Workflows/Labs/Lab02/state/catalogue.sqlite",
+  "unique_scenes": 40,
+  "latest_acquired": "2026-10-25T09:46:46.101000Z",
+  "latest_age_hours": 7.01,
+  "watermark": "2026-10-25T16:47:38.121854Z",
+  "runs": [
+    {
+      "run_id": "54ec0dc4-ffe9-45cc-9065-68ba8ee08878",
+      "stream_key": "9ae6b6299dd613ee619b8bb36c584f70051bb153fd582d37bc644c3ca29a0420",
+      "started_at": "2026-10-25T16:47:32.918946Z",
+      "finished_at": "2026-10-25T16:47:36.349573Z",
+      "status": "succeeded",
+      "search_start": "2026-09-21T00:00:00Z",
+      "search_until": "2026-10-25T16:47:32.917116Z",
+      "pages": 3,
+      "sightings": 40,
+      "new_scenes": 40,
+      "latest_acquired": "2026-10-25T09:46:46.101000Z",
+      "preview_item": "S2C_34UCA_20261025_0_L2A",
+      "preview_path": "/Users/molczane/Developer/Automated_Workflows/Labs/Lab02/state/previews/8e191417950dcfb083bc88abffa9c7947f4d9fa19dfaf4b82d16025d45609edb.jpg",
+      "error": null
+    },
+    {
+      "run_id": "8edd4d62-464c-4e5e-b3de-01e6b0c4ecc6",
+      "stream_key": "9ae6b6299dd613ee619b8bb36c584f70051bb153fd582d37bc644c3ca29a0420",
+      "started_at": "2026-10-25T16:47:36.385439Z",
+      "finished_at": "2026-10-25T16:47:38.001646Z",
+      "status": "succeeded",
+      "search_start": "2026-10-18T16:47:32.917116Z",
+      "search_until": "2026-10-25T16:47:36.384964Z",
+      "pages": 2,
+      "sightings": 8,
+      "new_scenes": 0,
+      "latest_acquired": "2026-10-25T09:46:46.101000Z",
+      "preview_item": null,
+      "preview_path": null,
+      "error": null
+    },
+    {
+      "run_id": "d8c68568-345d-426a-8f41-1b82e7910600",
+      "stream_key": "9ae6b6299dd613ee619b8bb36c584f70051bb153fd582d37bc644c3ca29a0420",
+      "started_at": "2026-10-25T16:47:38.122303Z",
+      "finished_at": "2026-10-25T16:47:40.044439Z",
+      "status": "succeeded",
+      "search_start": "2026-09-25T16:47:36.384964Z",
+      "search_until": "2026-10-25T16:47:38.121854Z",
+      "pages": 3,
+      "sightings": 36,
+      "new_scenes": 0,
+      "latest_acquired": "2026-10-25T09:46:46.101000Z",
+      "preview_item": null,
+      "preview_path": null,
+      "error": null
+    }
+  ]
+}
