@@ -1,0 +1,178 @@
+{
+  "database": "/Users/molczane/Developer/Automated_Workflows/Labs/Lab03/state/catalogue.sqlite",
+  "attempts": [
+    {
+      "attempt_id": "attempt-c403c467-9830-4b60-8b08-e82439ae2cc2",
+      "run_id": "lab03-59509f9f-c4f3-48ff-b3b2-2c7668adfe09",
+      "item_id": "S2C_34UDA_20250605_0_L2A",
+      "asset_key": "red",
+      "aoi_key": "48e7066dc2510b10454cbc305c90ecb47f71c0966d733d6ab4ec2630c8745724",
+      "status": "succeeded",
+      "stage": "complete",
+      "network_bytes": 2097153,
+      "http_status": 206,
+      "error_code": null,
+      "error_message": null,
+      "artifact_id": "59c9437e300a3549f75913bc0b4eeace6430e4be531fe988dded691a43ee71db",
+      "started_at": "2026-10-25T16:59:29.423338Z"
+    },
+    {
+      "attempt_id": "attempt-661ca95b-1571-4884-bba6-c32ce9f2cbed",
+      "run_id": "lab03-59509f9f-c4f3-48ff-b3b2-2c7668adfe09",
+      "item_id": "S2C_34UDA_20250605_0_L2A",
+      "asset_key": "nir",
+      "aoi_key": "48e7066dc2510b10454cbc305c90ecb47f71c0966d733d6ab4ec2630c8745724",
+      "status": "succeeded",
+      "stage": "complete",
+      "network_bytes": 2097153,
+      "http_status": 206,
+      "error_code": null,
+      "error_message": null,
+      "artifact_id": "dcfea4a7d5a3e6efc655301bc757ff7fe2477914191628bd3c8b81aabf39292e",
+      "started_at": "2026-10-25T16:59:34.939533Z"
+    },
+    {
+      "attempt_id": "attempt-80410bd7-2d04-41cc-98f3-6246e5fa903c",
+      "run_id": "lab03-6885d9d2-0719-4ec8-bb83-dbe824a5005b",
+      "item_id": "S2C_34UDA_20250605_0_L2A",
+      "asset_key": "red",
+      "aoi_key": "48e7066dc2510b10454cbc305c90ecb47f71c0966d733d6ab4ec2630c8745724",
+      "status": "reused",
+      "stage": "cache_verify",
+      "network_bytes": 0,
+      "http_status": null,
+      "error_code": null,
+      "error_message": null,
+      "artifact_id": "59c9437e300a3549f75913bc0b4eeace6430e4be531fe988dded691a43ee71db",
+      "started_at": "2026-10-25T16:59:40.525121Z"
+    },
+    {
+      "attempt_id": "attempt-14c999fd-bef8-425f-87af-5b7b64975af4",
+      "run_id": "lab03-6885d9d2-0719-4ec8-bb83-dbe824a5005b",
+      "item_id": "S2C_34UDA_20250605_0_L2A",
+      "asset_key": "nir",
+      "aoi_key": "48e7066dc2510b10454cbc305c90ecb47f71c0966d733d6ab4ec2630c8745724",
+      "status": "reused",
+      "stage": "cache_verify",
+      "network_bytes": 0,
+      "http_status": null,
+      "error_code": null,
+      "error_message": null,
+      "artifact_id": "dcfea4a7d5a3e6efc655301bc757ff7fe2477914191628bd3c8b81aabf39292e",
+      "started_at": "2026-10-25T16:59:40.532106Z"
+    },
+    {
+      "attempt_id": "attempt-96c4702e-996e-4cef-a61b-9034c6b1337e",
+      "run_id": "lab03-bff0bde6-ae53-42cc-9042-b8a973b56e52",
+      "item_id": "S2C_34UDA_20250605_0_L2A",
+      "asset_key": "red",
+      "aoi_key": "02da9b5e2c3e096cd57dbab81d7b4b56f91ccdbde37ec6385f8bd028b265ae54",
+      "status": "succeeded",
+      "stage": "complete",
+      "network_bytes": 2097153,
+      "http_status": 206,
+      "error_code": null,
+      "error_message": null,
+      "artifact_id": "57529db32766dc4bd6aa68e2a7fb4e442a5834248e7c3f46b8b4aed52be4b9f1",
+      "started_at": "2026-10-25T17:00:13.985858Z"
+    },
+    {
+      "attempt_id": "attempt-aa806931-6852-4477-9183-b39eee5cf3d1",
+      "run_id": "lab03-bff0bde6-ae53-42cc-9042-b8a973b56e52",
+      "item_id": "S2C_34UDA_20250605_0_L2A",
+      "asset_key": "nir",
+      "aoi_key": "02da9b5e2c3e096cd57dbab81d7b4b56f91ccdbde37ec6385f8bd028b265ae54",
+      "status": "succeeded",
+      "stage": "complete",
+      "network_bytes": 2097153,
+      "http_status": 206,
+      "error_code": null,
+      "error_message": null,
+      "artifact_id": "b988851930323e6e60a58d9a2f723333a36be41458157a81b8def7d5da5dbde8",
+      "started_at": "2026-10-25T17:00:19.463253Z"
+    }
+  ],
+  "subsets": [
+    {
+      "subset_id": "5462fd6b1d071487ebf4f9872da69c339ad7568e2b9bd923d7e7ad1e40fb2e2b",
+      "asset_id": "d200bd3f0222f2ffeb3048b0ecf35731181a9b5eca9c66f280d9af95bfbad5a2",
+      "aoi_key": "48e7066dc2510b10454cbc305c90ecb47f71c0966d733d6ab4ec2630c8745724",
+      "status": "ready",
+      "latest_artifact_id": "59c9437e300a3549f75913bc0b4eeace6430e4be531fe988dded691a43ee71db"
+    },
+    {
+      "subset_id": "f66f860d150ad4f0a41201bad30d12ab8f99fee60a4d3d25810569c6d44c6f0e",
+      "asset_id": "a2d220b3d0db776bd878281b88dd3d085be4ddc78042674be044110f202bdff8",
+      "aoi_key": "48e7066dc2510b10454cbc305c90ecb47f71c0966d733d6ab4ec2630c8745724",
+      "status": "ready",
+      "latest_artifact_id": "dcfea4a7d5a3e6efc655301bc757ff7fe2477914191628bd3c8b81aabf39292e"
+    },
+    {
+      "subset_id": "af474ae8b95c187a87c4fe8443853bd4879dfe721c3d78ed4dc8e455a5e6d32e",
+      "asset_id": "d200bd3f0222f2ffeb3048b0ecf35731181a9b5eca9c66f280d9af95bfbad5a2",
+      "aoi_key": "02da9b5e2c3e096cd57dbab81d7b4b56f91ccdbde37ec6385f8bd028b265ae54",
+      "status": "ready",
+      "latest_artifact_id": "57529db32766dc4bd6aa68e2a7fb4e442a5834248e7c3f46b8b4aed52be4b9f1"
+    },
+    {
+      "subset_id": "9d71da0367a3fae0f0f93671894a6c003c4ad3bb3c64b810f29e5e64c56efa49",
+      "asset_id": "a2d220b3d0db776bd878281b88dd3d085be4ddc78042674be044110f202bdff8",
+      "aoi_key": "02da9b5e2c3e096cd57dbab81d7b4b56f91ccdbde37ec6385f8bd028b265ae54",
+      "status": "ready",
+      "latest_artifact_id": "b988851930323e6e60a58d9a2f723333a36be41458157a81b8def7d5da5dbde8"
+    }
+  ],
+  "locations": [
+    {
+      "location_id": "0e369283da4d8f9dcf5806b818a520f3f4221883042239fcd645b679836b6875",
+      "artifact_id": "59c9437e300a3549f75913bc0b4eeace6430e4be531fe988dded691a43ee71db",
+      "local_path": "/Users/molczane/Developer/Automated_Workflows/Labs/Lab03/data/S2C_34UDA_20250605_0_L2A/48e7066dc251/red-59c9437e300a3549.tif",
+      "status": "available",
+      "checked_at": "2026-10-25T16:59:40.531355Z"
+    },
+    {
+      "location_id": "6557419ba241c7a86b91fef448982f89ef9408785b940b60213bf22fc525c0e2",
+      "artifact_id": "dcfea4a7d5a3e6efc655301bc757ff7fe2477914191628bd3c8b81aabf39292e",
+      "local_path": "/Users/molczane/Developer/Automated_Workflows/Labs/Lab03/data/S2C_34UDA_20250605_0_L2A/48e7066dc251/nir-dcfea4a7d5a3e6ef.tif",
+      "status": "available",
+      "checked_at": "2026-10-25T16:59:40.533506Z"
+    },
+    {
+      "location_id": "e9103fc860fef28bbf9db6aaff1aeeef9c4a3cf2bcb9a985087e4e608653bf88",
+      "artifact_id": "57529db32766dc4bd6aa68e2a7fb4e442a5834248e7c3f46b8b4aed52be4b9f1",
+      "local_path": "/Users/molczane/Developer/Automated_Workflows/Labs/Lab03/data/S2C_34UDA_20250605_0_L2A/02da9b5e2c3e/red-57529db32766dc4b.tif",
+      "status": "available",
+      "checked_at": "2026-10-25T17:00:19.462392Z"
+    },
+    {
+      "location_id": "260f546acb29f0d3bee5b513e85d5e23a60058a997b8606dfbde5d5820bc4a37",
+      "artifact_id": "b988851930323e6e60a58d9a2f723333a36be41458157a81b8def7d5da5dbde8",
+      "local_path": "/Users/molczane/Developer/Automated_Workflows/Labs/Lab03/data/S2C_34UDA_20250605_0_L2A/02da9b5e2c3e/nir-b988851930323e6e.tif",
+      "status": "available",
+      "checked_at": "2026-10-25T17:00:25.648301Z"
+    }
+  ],
+  "runs": [
+    {
+      "run_id": "lab03-59509f9f-c4f3-48ff-b3b2-2c7668adfe09",
+      "command": "acquire",
+      "status": "succeeded",
+      "error": null,
+      "started_at": "2026-10-25T16:59:29.417314Z"
+    },
+    {
+      "run_id": "lab03-6885d9d2-0719-4ec8-bb83-dbe824a5005b",
+      "command": "acquire",
+      "status": "succeeded",
+      "error": null,
+      "started_at": "2026-10-25T16:59:40.519553Z"
+    },
+    {
+      "run_id": "lab03-bff0bde6-ae53-42cc-9042-b8a973b56e52",
+      "command": "acquire",
+      "status": "succeeded",
+      "error": null,
+      "started_at": "2026-10-25T17:00:13.979767Z"
+    }
+  ]
+}
