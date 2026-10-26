@@ -1,0 +1,3 @@
+-- Lab 04: write all six new CREATE TABLE statements here.
+-- Use SCHEMA_CONTRACT.md. Keep the existing Lab 3 tables.
+-- IDs and checksums are supplied by Python. Do not DROP existing tables.
