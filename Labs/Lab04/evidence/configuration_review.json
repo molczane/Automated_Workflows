@@ -1,0 +1,101 @@
+{
+  "reviewed_at": "2026-10-26T09:26:20.633638+00:00",
+  "config": "/Users/molczane/Developer/Automated_Workflows/Labs/Lab04/config/ndvi.yml",
+  "source_database": "/Users/molczane/Developer/Automated_Workflows/Labs/Lab03/state/catalogue.sqlite",
+  "copied_database": "/Users/molczane/Developer/Automated_Workflows/Labs/Lab04/state/catalogue.sqlite",
+  "original_table_counts_preserved": {
+    "streams": 1,
+    "scenes": 16,
+    "downloads": 0,
+    "runs": 3,
+    "stream_scenes": 0,
+    "assets": 2,
+    "subset_requests": 4,
+    "download_attempts": 6,
+    "artifacts": 4,
+    "artifact_locations": 4
+  },
+  "provider_boa_offset_applied": true,
+  "review_document": "NDVI_Visual_Investigation_v1_20261022_Student/CALIBRATION_REVIEW.md",
+  "inputs": {
+    "red": {
+      "artifact_id": "input-59c9437e300a3549f75913bc0b4eeace6430e4be531fe988dded691a43ee71db",
+      "source_artifact_id": "59c9437e300a3549f75913bc0b4eeace6430e4be531fe988dded691a43ee71db",
+      "local_path": "/Users/molczane/Developer/Automated_Workflows/Labs/Lab03/data/S2C_34UDA_20250605_0_L2A/48e7066dc251/red-59c9437e300a3549.tif",
+      "local_sha256": "8363a5d2259d08d542985156aae667a6d37211dad1900f8c836c93f055c60a2a",
+      "fixture_sha256": "df429fb5eff330afe76e6dd0b7e749fba163e77dada3bdf6c6e18e430c601441",
+      "pixels_identical": true,
+      "grid_nodata_calibration_identical": true,
+      "original_scale": 0.0001,
+      "original_offset": -0.1,
+      "reviewed_scale": 0.0001,
+      "reviewed_offset": 0.0,
+      "lineage": {
+        "aoi": {
+          "bbox": [
+            19.91,
+            50.04,
+            19.94,
+            50.06
+          ],
+          "crs": "EPSG:4326"
+        },
+        "aoi_key": "48e7066dc2510b10454cbc305c90ecb47f71c0966d733d6ab4ec2630c8745724",
+        "asset_id": "d200bd3f0222f2ffeb3048b0ecf35731181a9b5eca9c66f280d9af95bfbad5a2",
+        "asset_key": "red",
+        "collection": "sentinel-2-l2a",
+        "item_id": "S2C_34UDA_20250605_0_L2A",
+        "metadata_sha256": "bc5625ecfe6d39ea02a1cf4af5afb786b253023f7c6a86fe0e60ae5450fcff7a",
+        "recipe_version": "native10m-wgs84-mask-v1",
+        "source_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/34/U/DA/2025/6/S2C_34UDA_20250605_0_L2A/B04.tif",
+        "subset_id": "5462fd6b1d071487ebf4f9872da69c339ad7568e2b9bd923d7e7ad1e40fb2e2b"
+      },
+      "shape": [
+        227,
+        219
+      ],
+      "crs": "EPSG:32634"
+    },
+    "nir": {
+      "artifact_id": "input-dcfea4a7d5a3e6efc655301bc757ff7fe2477914191628bd3c8b81aabf39292e",
+      "source_artifact_id": "dcfea4a7d5a3e6efc655301bc757ff7fe2477914191628bd3c8b81aabf39292e",
+      "local_path": "/Users/molczane/Developer/Automated_Workflows/Labs/Lab03/data/S2C_34UDA_20250605_0_L2A/48e7066dc251/nir-dcfea4a7d5a3e6ef.tif",
+      "local_sha256": "b8cf04708203ae6ee6a7306f4232b7a69370a397a14a05da1dd41bdb45bf0e49",
+      "fixture_sha256": "94733ceb5a90b44961485d021290543635df521a4c1da4d6fbb79ef7ec5f7d72",
+      "pixels_identical": true,
+      "grid_nodata_calibration_identical": true,
+      "original_scale": 0.0001,
+      "original_offset": -0.1,
+      "reviewed_scale": 0.0001,
+      "reviewed_offset": 0.0,
+      "lineage": {
+        "aoi": {
+          "bbox": [
+            19.91,
+            50.04,
+            19.94,
+            50.06
+          ],
+          "crs": "EPSG:4326"
+        },
+        "aoi_key": "48e7066dc2510b10454cbc305c90ecb47f71c0966d733d6ab4ec2630c8745724",
+        "asset_id": "a2d220b3d0db776bd878281b88dd3d085be4ddc78042674be044110f202bdff8",
+        "asset_key": "nir",
+        "collection": "sentinel-2-l2a",
+        "item_id": "S2C_34UDA_20250605_0_L2A",
+        "metadata_sha256": "031a9020d0b96713e0fd07cd10611630612b20f21220e5396591bdc8fc798e35",
+        "recipe_version": "native10m-wgs84-mask-v1",
+        "source_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/34/U/DA/2025/6/S2C_34UDA_20250605_0_L2A/B08.tif",
+        "subset_id": "f66f860d150ad4f0a41201bad30d12ab8f99fee60a4d3d25810569c6d44c6f0e"
+      },
+      "shape": [
+        227,
+        219
+      ],
+      "crs": "EPSG:32634"
+    }
+  },
+  "processing_requests": 0,
+  "processing_attempts": 0,
+  "interpretation_limit": "Course reviewed interpretation transferred by identical pixels and grid; not independently validated against the original JP2 product."
+}

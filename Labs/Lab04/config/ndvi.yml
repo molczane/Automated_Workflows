@@ -1,0 +1,37 @@
+database: /Users/molczane/Developer/Automated_Workflows/Labs/Lab04/state/catalogue.sqlite
+science:
+  stage: ndvi_v1
+  grid_policy: require_match
+  scaling: reviewed_calibration
+  mask_policy: nodata_only
+  denominator_epsilon: 1.0e-06
+  min_valid_fraction: 0.1
+  calibration:
+    red:
+      sha256: 8363a5d2259d08d542985156aae667a6d37211dad1900f8c836c93f055c60a2a
+      scale: 0.0001
+      offset: 0.0
+      evidence: Lab04 CALIBRATION_REVIEW.md teaching interpretation, scoped to this
+        exact local SHA-256. The local red subset has identical DN pixels, grid, nodata
+        and original scale/offset to preserved fixture df429fb5eff330afe76e6dd0b7e749fba163e77dada3bdf6c6e18e430c601441,
+        from the same scene, source URL and AOI. Captured earthsearch:boa_offset_applied=true
+        conflicts with original offset -0.1; use reviewed scale 0.0001 and offset
+        0 without changing input bytes or original metadata. No independent JP2 radiometric
+        comparison has been performed.
+    nir:
+      sha256: b8cf04708203ae6ee6a7306f4232b7a69370a397a14a05da1dd41bdb45bf0e49
+      scale: 0.0001
+      offset: 0.0
+      evidence: Lab04 CALIBRATION_REVIEW.md teaching interpretation, scoped to this
+        exact local SHA-256. The local nir subset has identical DN pixels, grid, nodata
+        and original scale/offset to preserved fixture 94733ceb5a90b44961485d021290543635df521a4c1da4d6fbb79ef7ec5f7d72,
+        from the same scene, source URL and AOI. Captured earthsearch:boa_offset_applied=true
+        conflicts with original offset -0.1; use reviewed scale 0.0001 and offset
+        0 without changing input bytes or original metadata. No independent JP2 radiometric
+        comparison has been performed.
+  inputs:
+    red: input-59c9437e300a3549f75913bc0b4eeace6430e4be531fe988dded691a43ee71db
+    nir: input-dcfea4a7d5a3e6efc655301bc757ff7fe2477914191628bd3c8b81aabf39292e
+runtime:
+  output_dir: /Users/molczane/Developer/Automated_Workflows/Labs/Lab04/outputs
+  log_dir: /Users/molczane/Developer/Automated_Workflows/Labs/Lab04/logs
