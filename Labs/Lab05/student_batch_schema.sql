@@ -1,2 +1,36 @@
--- Write all three table definitions using SCHEMA_CONTRACT.md.
--- The completed support/ schemas describe previous labs only.
+-- Batch coordination tables. The application enables foreign keys before
+-- installing this schema alongside the existing processing tables.
+
+CREATE TABLE batches (
+    batch_id TEXT NOT NULL PRIMARY KEY,
+    manifest_json TEXT NOT NULL CHECK (json_valid(manifest_json)),
+    created_at TEXT NOT NULL
+);
+
+CREATE TABLE batch_members (
+    batch_id TEXT NOT NULL REFERENCES batches (batch_id),
+    member_id TEXT NOT NULL,
+    -- The frozen ID exists before the processing request is registered.
+    planned_request_id TEXT NOT NULL,
+    request_id TEXT REFERENCES processing_requests (request_id),
+    spec_json TEXT NOT NULL CHECK (json_valid(spec_json)),
+    PRIMARY KEY (batch_id, member_id),
+    UNIQUE (batch_id, planned_request_id),
+    CHECK (request_id IS NULL OR request_id = planned_request_id)
+);
+
+CREATE TABLE batch_observations (
+    observation_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    batch_id TEXT NOT NULL,
+    member_id TEXT NOT NULL,
+    observed_at TEXT NOT NULL,
+    state TEXT NOT NULL
+        CHECK (state IN ('ready', 'complete', 'blocked', 'unresolved', 'failed')),
+    reason TEXT NOT NULL CHECK (length(trim(reason, char(9, 10, 11, 12, 13, 32))) > 0),
+    attempt_id TEXT REFERENCES processing_attempts (attempt_id),
+    evidence_json TEXT NOT NULL CHECK (json_valid(evidence_json)),
+    FOREIGN KEY (batch_id, member_id) REFERENCES batch_members (batch_id, member_id)
+);
+
+CREATE INDEX batch_observations_by_member
+    ON batch_observations (batch_id, member_id, observation_id);
