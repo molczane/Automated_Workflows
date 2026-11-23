@@ -1,0 +1,22 @@
+{
+  "database": "../work/demo/catalogue.sqlite",
+  "workspace": "../work/demo",
+  "max_attempts": 2,
+  "jobs": [
+    {
+      "member_id": "river-ndvi-v1",
+      "item_id": "S2C_T34UDA_20250605T095638_L2A",
+      "aoi_bbox": [
+        19.91,
+        50.04,
+        19.94,
+        50.06
+      ],
+      "product": "ndvi",
+      "preparation": {
+        "resolution_m": 10,
+        "mask_policy": "nodata_only"
+      }
+    }
+  ]
+}

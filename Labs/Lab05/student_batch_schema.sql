@@ -1,0 +1,2 @@
+-- Write all three table definitions using SCHEMA_CONTRACT.md.
+-- The completed support/ schemas describe previous labs only.

@@ -1,0 +1,756 @@
+{
+  "schema_version": 1,
+  "endpoint": "https://earth-search.aws.element84.com/v1",
+  "collection": "sentinel-2-c1-l2a",
+  "source": "Actual HTTP range reads; no generated imagery",
+  "members": [
+    {
+      "member_id": "S2A_T34UDA_20250604T094637_L2A-river",
+      "item_file": "S2A_T34UDA_20250604T094637_L2A.json",
+      "aoi_name": "river",
+      "bands": {
+        "red": {
+          "file": "S2A_T34UDA_20250604T094637_L2A-river-red.tif",
+          "plan": {
+            "asset_key": "red",
+            "source_url": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2A_T34UDA_20250604T094637_L2A/B04.tif",
+            "crs": "EPSG:32634",
+            "source_shape": [
+              10980,
+              10980
+            ],
+            "source_transform": [
+              10.0,
+              0.0,
+              399960.0,
+              0.0,
+              -10.0,
+              5600040.0
+            ],
+            "window": [
+              2198,
+              5416,
+              219,
+              227
+            ],
+            "shape": [
+              227,
+              219
+            ],
+            "transform": [
+              10.0,
+              0.0,
+              421940.0,
+              0.0,
+              -10.0,
+              5545880.0
+            ],
+            "dtype": "uint16",
+            "nodata": 0,
+            "scale": 0.0001,
+            "offset": -0.1,
+            "aoi_bbox": [
+              19.91,
+              50.04,
+              19.94,
+              50.06
+            ],
+            "recipe": "native10m-wgs84-mask-v1",
+            "raw_pixel_bytes": 99426
+          },
+          "sha256": "ef3ca867df64c8b756ddd817d1ec25c6722f6e88a734863a63a95a9986abf684",
+          "size_bytes": 74802,
+          "inside_pixels": 47766,
+          "non_nodata_pixels": 47766,
+          "network_bytes": 2097153
+        },
+        "nir": {
+          "file": "S2A_T34UDA_20250604T094637_L2A-river-nir.tif",
+          "plan": {
+            "asset_key": "nir",
+            "source_url": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2A_T34UDA_20250604T094637_L2A/B08.tif",
+            "crs": "EPSG:32634",
+            "source_shape": [
+              10980,
+              10980
+            ],
+            "source_transform": [
+              10.0,
+              0.0,
+              399960.0,
+              0.0,
+              -10.0,
+              5600040.0
+            ],
+            "window": [
+              2198,
+              5416,
+              219,
+              227
+            ],
+            "shape": [
+              227,
+              219
+            ],
+            "transform": [
+              10.0,
+              0.0,
+              421940.0,
+              0.0,
+              -10.0,
+              5545880.0
+            ],
+            "dtype": "uint16",
+            "nodata": 0,
+            "scale": 0.0001,
+            "offset": -0.1,
+            "aoi_bbox": [
+              19.91,
+              50.04,
+              19.94,
+              50.06
+            ],
+            "recipe": "native10m-wgs84-mask-v1",
+            "raw_pixel_bytes": 99426
+          },
+          "sha256": "e30bbf323834e7602031458e2b00f3d4b5e2ac06cd22a7967acf2032c78ec25c",
+          "size_bytes": 80020,
+          "inside_pixels": 47766,
+          "non_nodata_pixels": 47766,
+          "network_bytes": 2097153
+        }
+      }
+    },
+    {
+      "member_id": "S2A_T34UDA_20250604T094637_L2A-east",
+      "item_file": "S2A_T34UDA_20250604T094637_L2A.json",
+      "aoi_name": "east",
+      "bands": {
+        "red": {
+          "file": "S2A_T34UDA_20250604T094637_L2A-east-red.tif",
+          "plan": {
+            "asset_key": "red",
+            "source_url": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2A_T34UDA_20250604T094637_L2A/B04.tif",
+            "crs": "EPSG:32634",
+            "source_shape": [
+              10980,
+              10980
+            ],
+            "source_transform": [
+              10.0,
+              0.0,
+              399960.0,
+              0.0,
+              -10.0,
+              5600040.0
+            ],
+            "window": [
+              2413,
+              5420,
+              219,
+              226
+            ],
+            "shape": [
+              226,
+              219
+            ],
+            "transform": [
+              10.0,
+              0.0,
+              424090.0,
+              0.0,
+              -10.0,
+              5545840.0
+            ],
+            "dtype": "uint16",
+            "nodata": 0,
+            "scale": 0.0001,
+            "offset": -0.1,
+            "aoi_bbox": [
+              19.94,
+              50.04,
+              19.97,
+              50.06
+            ],
+            "recipe": "native10m-wgs84-mask-v1",
+            "raw_pixel_bytes": 98988
+          },
+          "sha256": "6e696e135d64a62df163665fe273d0b945878c7864441a20ccddc5c04050c193",
+          "size_bytes": 75278,
+          "inside_pixels": 47766,
+          "non_nodata_pixels": 47766,
+          "network_bytes": 0
+        },
+        "nir": {
+          "file": "S2A_T34UDA_20250604T094637_L2A-east-nir.tif",
+          "plan": {
+            "asset_key": "nir",
+            "source_url": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2A_T34UDA_20250604T094637_L2A/B08.tif",
+            "crs": "EPSG:32634",
+            "source_shape": [
+              10980,
+              10980
+            ],
+            "source_transform": [
+              10.0,
+              0.0,
+              399960.0,
+              0.0,
+              -10.0,
+              5600040.0
+            ],
+            "window": [
+              2413,
+              5420,
+              219,
+              226
+            ],
+            "shape": [
+              226,
+              219
+            ],
+            "transform": [
+              10.0,
+              0.0,
+              424090.0,
+              0.0,
+              -10.0,
+              5545840.0
+            ],
+            "dtype": "uint16",
+            "nodata": 0,
+            "scale": 0.0001,
+            "offset": -0.1,
+            "aoi_bbox": [
+              19.94,
+              50.04,
+              19.97,
+              50.06
+            ],
+            "recipe": "native10m-wgs84-mask-v1",
+            "raw_pixel_bytes": 98988
+          },
+          "sha256": "588932561a64ae1cbd87e086bff36c277fecf50adafa0851cb36b5f6c726d8be",
+          "size_bytes": 80126,
+          "inside_pixels": 47766,
+          "non_nodata_pixels": 47766,
+          "network_bytes": 0
+        }
+      }
+    },
+    {
+      "member_id": "S2C_T34UDA_20250605T095638_L2A-river",
+      "item_file": "S2C_T34UDA_20250605T095638_L2A.json",
+      "aoi_name": "river",
+      "bands": {
+        "red": {
+          "file": "S2C_T34UDA_20250605T095638_L2A-river-red.tif",
+          "plan": {
+            "asset_key": "red",
+            "source_url": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2C_T34UDA_20250605T095638_L2A/B04.tif",
+            "crs": "EPSG:32634",
+            "source_shape": [
+              10980,
+              10980
+            ],
+            "source_transform": [
+              10.0,
+              0.0,
+              399960.0,
+              0.0,
+              -10.0,
+              5600040.0
+            ],
+            "window": [
+              2198,
+              5416,
+              219,
+              227
+            ],
+            "shape": [
+              227,
+              219
+            ],
+            "transform": [
+              10.0,
+              0.0,
+              421940.0,
+              0.0,
+              -10.0,
+              5545880.0
+            ],
+            "dtype": "uint16",
+            "nodata": 0,
+            "scale": 0.0001,
+            "offset": -0.1,
+            "aoi_bbox": [
+              19.91,
+              50.04,
+              19.94,
+              50.06
+            ],
+            "recipe": "native10m-wgs84-mask-v1",
+            "raw_pixel_bytes": 99426
+          },
+          "sha256": "8a24d3f8ce5066c13220884c45da5dceb2b8edb24bc84f096a52e4f09260563b",
+          "size_bytes": 75970,
+          "inside_pixels": 47766,
+          "non_nodata_pixels": 47766,
+          "network_bytes": 2097153
+        },
+        "nir": {
+          "file": "S2C_T34UDA_20250605T095638_L2A-river-nir.tif",
+          "plan": {
+            "asset_key": "nir",
+            "source_url": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2C_T34UDA_20250605T095638_L2A/B08.tif",
+            "crs": "EPSG:32634",
+            "source_shape": [
+              10980,
+              10980
+            ],
+            "source_transform": [
+              10.0,
+              0.0,
+              399960.0,
+              0.0,
+              -10.0,
+              5600040.0
+            ],
+            "window": [
+              2198,
+              5416,
+              219,
+              227
+            ],
+            "shape": [
+              227,
+              219
+            ],
+            "transform": [
+              10.0,
+              0.0,
+              421940.0,
+              0.0,
+              -10.0,
+              5545880.0
+            ],
+            "dtype": "uint16",
+            "nodata": 0,
+            "scale": 0.0001,
+            "offset": -0.1,
+            "aoi_bbox": [
+              19.91,
+              50.04,
+              19.94,
+              50.06
+            ],
+            "recipe": "native10m-wgs84-mask-v1",
+            "raw_pixel_bytes": 99426
+          },
+          "sha256": "84376de856f11a1e463d4c55f167e06aa4a245122833e217bc1d37c46afc1b96",
+          "size_bytes": 76198,
+          "inside_pixels": 47766,
+          "non_nodata_pixels": 47766,
+          "network_bytes": 2097153
+        }
+      }
+    },
+    {
+      "member_id": "S2C_T34UDA_20250605T095638_L2A-east",
+      "item_file": "S2C_T34UDA_20250605T095638_L2A.json",
+      "aoi_name": "east",
+      "bands": {
+        "red": {
+          "file": "S2C_T34UDA_20250605T095638_L2A-east-red.tif",
+          "plan": {
+            "asset_key": "red",
+            "source_url": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2C_T34UDA_20250605T095638_L2A/B04.tif",
+            "crs": "EPSG:32634",
+            "source_shape": [
+              10980,
+              10980
+            ],
+            "source_transform": [
+              10.0,
+              0.0,
+              399960.0,
+              0.0,
+              -10.0,
+              5600040.0
+            ],
+            "window": [
+              2413,
+              5420,
+              219,
+              226
+            ],
+            "shape": [
+              226,
+              219
+            ],
+            "transform": [
+              10.0,
+              0.0,
+              424090.0,
+              0.0,
+              -10.0,
+              5545840.0
+            ],
+            "dtype": "uint16",
+            "nodata": 0,
+            "scale": 0.0001,
+            "offset": -0.1,
+            "aoi_bbox": [
+              19.94,
+              50.04,
+              19.97,
+              50.06
+            ],
+            "recipe": "native10m-wgs84-mask-v1",
+            "raw_pixel_bytes": 98988
+          },
+          "sha256": "4070bed64832e02f785b532e7f77e0a65249064677ba44a44ce384fffaafa0ef",
+          "size_bytes": 76362,
+          "inside_pixels": 47766,
+          "non_nodata_pixels": 47766,
+          "network_bytes": 0
+        },
+        "nir": {
+          "file": "S2C_T34UDA_20250605T095638_L2A-east-nir.tif",
+          "plan": {
+            "asset_key": "nir",
+            "source_url": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2C_T34UDA_20250605T095638_L2A/B08.tif",
+            "crs": "EPSG:32634",
+            "source_shape": [
+              10980,
+              10980
+            ],
+            "source_transform": [
+              10.0,
+              0.0,
+              399960.0,
+              0.0,
+              -10.0,
+              5600040.0
+            ],
+            "window": [
+              2413,
+              5420,
+              219,
+              226
+            ],
+            "shape": [
+              226,
+              219
+            ],
+            "transform": [
+              10.0,
+              0.0,
+              424090.0,
+              0.0,
+              -10.0,
+              5545840.0
+            ],
+            "dtype": "uint16",
+            "nodata": 0,
+            "scale": 0.0001,
+            "offset": -0.1,
+            "aoi_bbox": [
+              19.94,
+              50.04,
+              19.97,
+              50.06
+            ],
+            "recipe": "native10m-wgs84-mask-v1",
+            "raw_pixel_bytes": 98988
+          },
+          "sha256": "794e5c9a6624de0e529f0f23a925fe4476fed04fcf3d3d2e178267f88c1ea99b",
+          "size_bytes": 76380,
+          "inside_pixels": 47766,
+          "non_nodata_pixels": 47766,
+          "network_bytes": 0
+        }
+      }
+    },
+    {
+      "member_id": "S2B_T34UDA_20250610T095316_L2A-river",
+      "item_file": "S2B_T34UDA_20250610T095316_L2A.json",
+      "aoi_name": "river",
+      "bands": {
+        "red": {
+          "file": "S2B_T34UDA_20250610T095316_L2A-river-red.tif",
+          "plan": {
+            "asset_key": "red",
+            "source_url": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2B_T34UDA_20250610T095316_L2A/B04.tif",
+            "crs": "EPSG:32634",
+            "source_shape": [
+              10980,
+              10980
+            ],
+            "source_transform": [
+              10.0,
+              0.0,
+              399960.0,
+              0.0,
+              -10.0,
+              5600040.0
+            ],
+            "window": [
+              2198,
+              5416,
+              219,
+              227
+            ],
+            "shape": [
+              227,
+              219
+            ],
+            "transform": [
+              10.0,
+              0.0,
+              421940.0,
+              0.0,
+              -10.0,
+              5545880.0
+            ],
+            "dtype": "uint16",
+            "nodata": 0,
+            "scale": 0.0001,
+            "offset": -0.1,
+            "aoi_bbox": [
+              19.91,
+              50.04,
+              19.94,
+              50.06
+            ],
+            "recipe": "native10m-wgs84-mask-v1",
+            "raw_pixel_bytes": 99426
+          },
+          "sha256": "938cd4fe09e3522caa895bcd2e0b38ecfeaecc0b8be52507d58a9b71eb906087",
+          "size_bytes": 75674,
+          "inside_pixels": 47766,
+          "non_nodata_pixels": 47766,
+          "network_bytes": 2097153
+        },
+        "nir": {
+          "file": "S2B_T34UDA_20250610T095316_L2A-river-nir.tif",
+          "plan": {
+            "asset_key": "nir",
+            "source_url": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2B_T34UDA_20250610T095316_L2A/B08.tif",
+            "crs": "EPSG:32634",
+            "source_shape": [
+              10980,
+              10980
+            ],
+            "source_transform": [
+              10.0,
+              0.0,
+              399960.0,
+              0.0,
+              -10.0,
+              5600040.0
+            ],
+            "window": [
+              2198,
+              5416,
+              219,
+              227
+            ],
+            "shape": [
+              227,
+              219
+            ],
+            "transform": [
+              10.0,
+              0.0,
+              421940.0,
+              0.0,
+              -10.0,
+              5545880.0
+            ],
+            "dtype": "uint16",
+            "nodata": 0,
+            "scale": 0.0001,
+            "offset": -0.1,
+            "aoi_bbox": [
+              19.91,
+              50.04,
+              19.94,
+              50.06
+            ],
+            "recipe": "native10m-wgs84-mask-v1",
+            "raw_pixel_bytes": 99426
+          },
+          "sha256": "e41b7f8fec72c21b2f7683cace7339f68c2776dcc6a133684b6abc81b4ba7dca",
+          "size_bytes": 76316,
+          "inside_pixels": 47766,
+          "non_nodata_pixels": 47766,
+          "network_bytes": 2097153
+        }
+      }
+    },
+    {
+      "member_id": "S2B_T34UDA_20250610T095316_L2A-east",
+      "item_file": "S2B_T34UDA_20250610T095316_L2A.json",
+      "aoi_name": "east",
+      "bands": {
+        "red": {
+          "file": "S2B_T34UDA_20250610T095316_L2A-east-red.tif",
+          "plan": {
+            "asset_key": "red",
+            "source_url": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2B_T34UDA_20250610T095316_L2A/B04.tif",
+            "crs": "EPSG:32634",
+            "source_shape": [
+              10980,
+              10980
+            ],
+            "source_transform": [
+              10.0,
+              0.0,
+              399960.0,
+              0.0,
+              -10.0,
+              5600040.0
+            ],
+            "window": [
+              2413,
+              5420,
+              219,
+              226
+            ],
+            "shape": [
+              226,
+              219
+            ],
+            "transform": [
+              10.0,
+              0.0,
+              424090.0,
+              0.0,
+              -10.0,
+              5545840.0
+            ],
+            "dtype": "uint16",
+            "nodata": 0,
+            "scale": 0.0001,
+            "offset": -0.1,
+            "aoi_bbox": [
+              19.94,
+              50.04,
+              19.97,
+              50.06
+            ],
+            "recipe": "native10m-wgs84-mask-v1",
+            "raw_pixel_bytes": 98988
+          },
+          "sha256": "7bac18ef40bfca0d288368f3fe46168694931ed982ce53f76a552d48532af990",
+          "size_bytes": 75714,
+          "inside_pixels": 47766,
+          "non_nodata_pixels": 47766,
+          "network_bytes": 0
+        },
+        "nir": {
+          "file": "S2B_T34UDA_20250610T095316_L2A-east-nir.tif",
+          "plan": {
+            "asset_key": "nir",
+            "source_url": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2B_T34UDA_20250610T095316_L2A/B08.tif",
+            "crs": "EPSG:32634",
+            "source_shape": [
+              10980,
+              10980
+            ],
+            "source_transform": [
+              10.0,
+              0.0,
+              399960.0,
+              0.0,
+              -10.0,
+              5600040.0
+            ],
+            "window": [
+              2413,
+              5420,
+              219,
+              226
+            ],
+            "shape": [
+              226,
+              219
+            ],
+            "transform": [
+              10.0,
+              0.0,
+              424090.0,
+              0.0,
+              -10.0,
+              5545840.0
+            ],
+            "dtype": "uint16",
+            "nodata": 0,
+            "scale": 0.0001,
+            "offset": -0.1,
+            "aoi_bbox": [
+              19.94,
+              50.04,
+              19.97,
+              50.06
+            ],
+            "recipe": "native10m-wgs84-mask-v1",
+            "raw_pixel_bytes": 98988
+          },
+          "sha256": "db1fd4e1e9928f139fa06c6106fb51914e934d222a0a18c3bd9617357cb9c984",
+          "size_bytes": 76364,
+          "inside_pixels": 47766,
+          "non_nodata_pixels": 47766,
+          "network_bytes": 0
+        }
+      }
+    }
+  ],
+  "downloaded_at": "2026-11-05T17:16:17.725162Z",
+  "transfers": [
+    {
+      "item_id": "S2A_T34UDA_20250604T094637_L2A",
+      "band": "red",
+      "network_bytes": 2097153,
+      "range_requests": 4,
+      "etag": "\"e7a1089d06f7b554936ecb705c063dba-26\""
+    },
+    {
+      "item_id": "S2A_T34UDA_20250604T094637_L2A",
+      "band": "nir",
+      "network_bytes": 2097153,
+      "range_requests": 4,
+      "etag": "\"b6f60484253740638c5e508c4d1d277b-31\""
+    },
+    {
+      "item_id": "S2C_T34UDA_20250605T095638_L2A",
+      "band": "red",
+      "network_bytes": 2097153,
+      "range_requests": 4,
+      "etag": "\"2b9fa3e8fd1e9a9f60424a41bfceb118-21\""
+    },
+    {
+      "item_id": "S2C_T34UDA_20250605T095638_L2A",
+      "band": "nir",
+      "network_bytes": 2097153,
+      "range_requests": 4,
+      "etag": "\"54fb430bc9229321cca54ffe36a698bc-22\""
+    },
+    {
+      "item_id": "S2B_T34UDA_20250610T095316_L2A",
+      "band": "red",
+      "network_bytes": 2097153,
+      "range_requests": 4,
+      "etag": "\"1fa3f6073ed3ba5107d62e6faff2ac09-21\""
+    },
+    {
+      "item_id": "S2B_T34UDA_20250610T095316_L2A",
+      "band": "nir",
+      "network_bytes": 2097153,
+      "range_requests": 4,
+      "etag": "\"7fae2b703f7bd72fc9a132e193dab01f-22\""
+    }
+  ],
+  "complete": true
+}

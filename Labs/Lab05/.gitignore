@@ -1,0 +1,8 @@
+__pycache__/
+.ipynb_checkpoints/
+work/
+cases/
+reports/
+acquired_c1/
+live_work/
+*.lab05.lock

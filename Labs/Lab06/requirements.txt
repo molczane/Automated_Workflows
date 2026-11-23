@@ -1,0 +1,7 @@
+numpy>=1.26,<3
+rasterio>=1.4.3,<2
+matplotlib>=3.8,<4
+fsspec>=2024.5
+pytest>=8,<10
+setuptools>=68
+wheel

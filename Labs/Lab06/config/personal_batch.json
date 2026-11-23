@@ -1,0 +1,37 @@
+{
+  "database": "../work/personal/catalogue.sqlite",
+  "workspace": "../work/personal",
+  "max_attempts": 2,
+  "jobs": [
+    {
+      "member_id": "my_aoi_my_product",
+      "item_id": "REPLACE_WITH_AN_ITEM_FROM_SEARCH",
+      "aoi_bbox": [
+        19.91,
+        50.04,
+        19.94,
+        50.06
+      ],
+      "product": "my_product",
+      "plugin": "../extensions/my_product.py",
+      "parameters": {
+        "epsilon": 1e-06
+      },
+      "preparation": {
+        "resolution_m": 20,
+        "mask_policy": "scl",
+        "excluded_scl": [
+          0,
+          1,
+          2,
+          3,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    }
+  ]
+}

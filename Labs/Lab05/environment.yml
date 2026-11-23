@@ -1,0 +1,12 @@
+name: automated-workflows
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy>=1.26,<3
+  - rasterio>=1.4,<2
+  - matplotlib>=3.8,<4
+  - pyyaml>=6,<7
+  - jupyterlab>=4,<5
+  - ipykernel
+  - git

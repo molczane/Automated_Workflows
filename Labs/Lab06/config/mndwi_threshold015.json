@@ -1,0 +1,21 @@
+{
+  "database": "../work/demo/catalogue.sqlite",
+  "workspace": "../work/demo",
+  "max_attempts": 2,
+  "jobs": [
+    {
+      "member_id": "river-clear-date-mndwi",
+      "item_id": "S2C_T34UDA_20250605T095638_L2A",
+      "aoi_bbox": [
+        19.91,
+        50.04,
+        19.94,
+        50.06
+      ],
+      "product": "mndwi",
+      "parameters": {
+        "threshold": 0.15
+      }
+    }
+  ]
+}

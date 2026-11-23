@@ -1,0 +1,24 @@
+{
+  "database": "../work/demo/catalogue.sqlite",
+  "workspace": "../work/demo",
+  "max_attempts": 2,
+  "jobs": [
+    {
+      "member_id": "river-cloudy-date-unscreened",
+      "item_id": "S2A_T34UDA_20250604T094637_L2A",
+      "aoi_bbox": [
+        19.91,
+        50.04,
+        19.94,
+        50.06
+      ],
+      "product": "mndwi",
+      "parameters": {
+        "threshold": 0.0
+      },
+      "preparation": {
+        "mask_policy": "nodata_only"
+      }
+    }
+  ]
+}

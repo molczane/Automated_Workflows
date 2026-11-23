@@ -1,0 +1,18 @@
+{
+  "aois": {
+    "my_aoi": [
+      19.91,
+      50.04,
+      19.94,
+      50.06
+    ]
+  },
+  "item_ids": [
+    "REPLACE_WITH_AN_ITEM_FROM_SEARCH"
+  ],
+  "bands": [
+    "nir",
+    "swir16",
+    "scl"
+  ]
+}

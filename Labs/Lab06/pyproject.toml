@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agh-eo-processing"
+version = "1.0.0"
+description = "Automated Workflows: shared optical processing version 1"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26,<3", "rasterio>=1.4.3,<2", "matplotlib>=3.8,<4", "fsspec>=2024.5"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+eo-process = "eo_processing.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["eo_processing*"]
+
+[tool.setuptools.package-data]
+eo_processing = ["schemas/*.sql", "data/*.json", "data/fixtures/*.json", "data/fixtures/*.tif"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
