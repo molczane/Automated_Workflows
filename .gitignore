@@ -6,3 +6,18 @@
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
+.pytest_cache/
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+
+# Local environment settings and credentials
+.env
+.env.*
+!.env.example
+.netrc
+_netrc
+
+# Local SNAP and SNAPHU workspace
+/Labs/Lab07/work/

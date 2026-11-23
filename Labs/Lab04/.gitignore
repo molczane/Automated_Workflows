@@ -5,6 +5,7 @@ data/
 demo/
 cases/
 outputs/
+visual_check_output/
 logs/
 *.sqlite
 *.sqlite-*
