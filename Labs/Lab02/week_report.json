@@ -1,10 +1,10 @@
 {
   "stream_key": "9ae6b6299dd613ee619b8bb36c584f70051bb153fd582d37bc644c3ca29a0420",
   "database": "/Users/molczane/Developer/Automated_Workflows/Labs/Lab02/state/catalogue.sqlite",
-  "unique_scenes": 40,
-  "latest_acquired": "2026-10-25T09:46:46.101000Z",
-  "latest_age_hours": 7.01,
-  "watermark": "2026-10-25T16:47:38.121854Z",
+  "unique_scenes": 70,
+  "latest_acquired": "2026-11-22T09:56:46.924000Z",
+  "latest_age_hours": 23.61,
+  "watermark": "2026-11-23T09:32:33.013684Z",
   "runs": [
     {
       "run_id": "54ec0dc4-ffe9-45cc-9065-68ba8ee08878",
@@ -50,6 +50,22 @@
       "sightings": 36,
       "new_scenes": 0,
       "latest_acquired": "2026-10-25T09:46:46.101000Z",
+      "preview_item": null,
+      "preview_path": null,
+      "error": null
+    },
+    {
+      "run_id": "4a110532-1dcc-405e-914e-15a9b66352e9",
+      "stream_key": "9ae6b6299dd613ee619b8bb36c584f70051bb153fd582d37bc644c3ca29a0420",
+      "started_at": "2026-11-23T09:32:33.016449Z",
+      "finished_at": "2026-11-23T09:32:35.397823Z",
+      "status": "succeeded",
+      "search_start": "2026-10-18T16:47:38.121854Z",
+      "search_until": "2026-11-23T09:32:33.013684Z",
+      "pages": 3,
+      "sightings": 38,
+      "new_scenes": 30,
+      "latest_acquired": "2026-11-22T09:56:46.924000Z",
       "preview_item": null,
       "preview_path": null,
       "error": null
